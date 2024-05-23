@@ -187,17 +187,17 @@ export const workExperience = [
 
 export const socialMedia = [
   {
-    id: 1,
+    id: "1",
     img: "/git.svg",
     url: "https://github.com/KDVaibhav/",
   },
   {
-    id: 2,
+    id: "2",
     img: "/twit.svg",
     url: "https://x.com/Vaibhav48955024",
   },
   {
-    id: 3,
+    id: "3",
     img: "/link.svg",
     url: "https://www.linkedin.com/in/vaibhav-agrawal-9a77681b8/",
   },
