@@ -78,6 +78,20 @@ export const projects = [
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/pg.png", "/pm.png"],
     link: "https://medium-blog-project.vercel.app/",
   },
+  {
+    id: 2,
+    title: "Web3 CrowdFunding Platform",
+    des: "Create your campaign using ethereum",
+    img: "/p2.jpeg",
+    iconLists: [
+      "/react.svg",
+      "/tail.svg",
+      "/ethereum.png",
+      "/thirdweb.png",
+      "/metamask.png",
+    ],
+    link: "https://crowd-funding-swart.vercel.app/",
+  },
   // {
   //   id: 2,
   //   title: "Yoom - Video Conferencing App",
@@ -119,6 +133,13 @@ export const testimonials = [
     title: "Faculty, Applied Mechanics and Biomedical Engineering, IIT Madras",
     img: "/Prof.KannabiranSeshayan.png",
   },
+  {
+    quote:
+      "During the period of the internship, he was punctual, and his performance met our expectations. We wish him all the best in his future endeavors.",
+    name: "Aravind Prasad",
+    title: "Founder and MD, Deepgrid",
+    img: "/Aravind_Prasad.jpg",
+  },
 ];
 
 export const companies = [
@@ -157,32 +178,34 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Full Stack Developer Intern",
+    company: "DeepGrid DataCenter Pvt. Ltd.",
+    desc: "Architected, developed and deployed a highly customizable e-commerce platform using NestJS, Next.js, MongoDB, and Redis",
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    thumbnail: "/FullStackDeveloper.png",
   },
-  // {
-  //   id: 2,
-  //   title: "Mobile App Dev - JSM Tech",
-  //   desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-  //   className: "md:col-span-2", // change to md:col-span-2
-  //   thumbnail: "/exp2.svg",
-  // },
+  {
+    id: 2,
+    title: "Full Stack GenAI Developer Intern",
+    company: "Transenigma Services Pvt. Ltd.",
+    desc: "Architected and Created a cutting-edge School ERP software solution using React with Redux, MongoDB, TailwindCSS, and Python (Flask), Langchain, LLM ",
+    className: "md:col-span-2",
+    thumbnail: "/FullStackGenAIDeveloper.png",
+  },
   {
     id: 3,
     title: "Freelance App Dev Project",
     desc: "Led the dev of app for client, from initial concept to deployment on app stores.",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
+    thumbnail: "/Freelancer.png",
   },
-//   {
-//     id: 4,
-//     title: "Lead Frontend Developer",
-//     desc: "Developed and maintained user-facing features using modern frontend technologies.",
-//     className: "md:col-span-2",
-//     thumbnail: "/exp4.svg",
-//   },
+  {
+    id: 4,
+    title: "Lead Frontend Developer",
+    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    className: "md:col-span-2",
+    thumbnail: "/FrontendDeveloper.png",
+  },
 ];
 
 export const socialMedia = [
