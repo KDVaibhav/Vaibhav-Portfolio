@@ -92,6 +92,14 @@ export const projects = [
     ],
     link: "https://crowd-funding-swart.vercel.app/",
   },
+  {
+    id: 3,
+    title: "EduEnhance: An ERP for Education",
+    des: "Managing schools and colleges effectively",
+    img: "/p3.png",
+    iconLists: ["/react.svg", "/tail.svg", "/ts.svg", "/pg.png", "/pm.png"],
+    link: "https://eduenhance-kd.vercel.app/",
+  },
   // {
   //   id: 2,
   //   title: "Yoom - Video Conferencing App",
