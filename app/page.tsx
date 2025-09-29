@@ -10,20 +10,24 @@ import Experience from "@/components/Experience";
 import Approach from "@/components/Approach";
 import Footer from "@/components/Footer";
 
+import Timeline from "@/components/Timeline";
+
 export default function Home() {
   return (
     <main className="relative bg-black-100 flex justify-center items-center flex-col mx-auto sm:px-10 px-5 overflow-clip">
       <div className="max-w-7xl w-full">
         <h1>
-          <FloatingNav
-            navItems={navItems}/>
+          <FloatingNav navItems={navItems} />
           <Hero />
           <Grid />
+          {/* Vertical Timeline Section */}
+          <Timeline />
           <RecentProject />
+
           <Clients />
           <Experience />
-          <Approach />
-          <Footer/>
+          {/* <Approach /> */}
+          <Footer />
         </h1>
       </div>
     </main>

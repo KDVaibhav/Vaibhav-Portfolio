@@ -1,20 +1,23 @@
-import React from 'react'
-import MagicButton from './ui/MagicButton'
-import { FaLocationArrow } from 'react-icons/fa'
-import { socialMedia } from '@/data'
+import React from "react";
+import MagicButton from "./ui/MagicButton";
+import { FaLocationArrow } from "react-icons/fa";
+import { socialMedia } from "@/data";
 
 const Footer = () => {
   return (
     <footer className="w-full mb-[108px] md:mb-5 pb-10" id="contact">
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
-          Ready to take <span className="text-purple">your</span> digital
-          presence to the next level
+          Open to roles where I can take{" "}
+          <span className="text-purple">
+            ownership, solve challenging problems,
+          </span>{" "}
+          and contribute to building innovative products
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
           {" "}
-          Reach out to me today and let&apos;s discuss how I can help you
-          achieve your goals.
+          Let&apos;s connect and explore how together we can build impactful
+          products.
         </p>
         <a href="mailto:va2132002@gmail.com">
           <MagicButton
@@ -50,6 +53,6 @@ const Footer = () => {
       </div>
     </footer>
   );
-}
+};
 
-export default Footer
+export default Footer;
