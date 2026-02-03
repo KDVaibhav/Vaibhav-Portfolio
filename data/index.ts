@@ -9,7 +9,8 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I believe in transparent collaboration, working closely with teams to build impactful products ",
+    title:
+      "I believe in transparent collaboration, working closely with teams to build impactful products ",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -241,7 +242,7 @@ export const timelineData = [
     description:
       "Started full time role as Software Development Engineer 1 at WareIQ, understanding the new generation of intelligent logistics in ecommerce.",
     date: "2025-12",
-    category: "Innovation",
+    category: "Full Time Job",
     image:
       "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=150&h=150&fit=crop&crop=face",
     status: "current",
@@ -264,7 +265,7 @@ export const timelineData = [
     category: "Full Time Job",
     image:
       "https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=150&h=150&fit=crop&crop=face",
-    status: "current",
+    status: "completed",
   },
   {
     title: "Joined Alignnr as AI Trainer (Freelance)",
@@ -274,7 +275,7 @@ export const timelineData = [
     category: "Freelance",
     image:
       "https://images.unsplash.com/photo-1581091012184-5c8f3a9f2f83?w=150&h=150&fit=crop&crop=face",
-    status: "current",
+    status: "completed",
   },
   {
     title: "Completed ISKCON Website Project",
@@ -294,7 +295,7 @@ export const timelineData = [
     category: "Freelance",
     image:
       "https://images.unsplash.com/photo-1581090700227-4c4dc83a8a2c?w=150&h=150&fit=crop&crop=face",
-    status: "current",
+    status: "completed",
   },
   {
     title: "Built Generative AI Projects",
