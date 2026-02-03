@@ -32,7 +32,7 @@ const Hero = () => {
           {/* Profile photo container */}
           <div className="relative w-32 h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 rounded-full border-4 border-purple/30 overflow-hidden shadow-2xl shadow-purple/20 hover:shadow-purple/40 transition-all duration-300 hover:scale-105">
             <Image
-              src="/Vaibhav_Agrawal.jpeg" // Replace with your actual photo path
+              src="/Vaibhav_Agrawal.jpg" // Replace with your actual photo path
               alt="Vaibhav - Full Stack Developer"
               fill
               className="object-cover"

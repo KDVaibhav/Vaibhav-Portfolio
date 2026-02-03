@@ -237,7 +237,17 @@ export const socialMedia = [
 
 export const timelineData = [
   {
-    title: "uilding an Intelligent Real Estate Platform",
+    title: "Joined WareIQ(YC S20) as SDE-1",
+    description:
+      "Started full time role as Software Development Engineer 1 at WareIQ, understanding the new generation of intelligent logistics in ecommerce.",
+    date: "2025-12",
+    category: "Innovation",
+    image:
+      "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=150&h=150&fit=crop&crop=face",
+    status: "current",
+  },
+  {
+    title: "Building an Intelligent Real Estate Platform",
     description:
       "Initiated work on an AI-powered real estate platform, integrating automation and intelligence to improve lead generation and decision-making.",
     date: "2025-08",
@@ -249,7 +259,7 @@ export const timelineData = [
   {
     title: "Joined Transenigma as SDE-1",
     description:
-      "Started full-time role as Software Development Engineer I at Transenigma, contributing to ERP systems and scalable backend services.",
+      "Software Development Engineer I at Transenigma, contributing to ERP systems and scalable backend services.",
     date: "2025-07",
     category: "Full Time Job",
     image:
